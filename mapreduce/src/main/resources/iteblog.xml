@@ -1,0 +1,6 @@
+<configuration>
+    <property>
+        <name>color</name>
+        <value>red</value>
+    </property>
+</configuration>

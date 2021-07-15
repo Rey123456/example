@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.git/
+target/
+
+*.iml
+.exclude
+update.sh
+cfg/sys.cfg
+testProperty.cfg
+testConfig.xml
+.DS_Store

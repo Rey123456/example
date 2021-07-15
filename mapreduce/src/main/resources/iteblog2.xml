@@ -1,0 +1,7 @@
+<configuration>
+    <property>
+        <name>color</name>
+        <value>bule</value>
+        <final>true</final>
+    </property>
+</configuration>
