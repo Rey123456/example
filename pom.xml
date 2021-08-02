@@ -13,6 +13,7 @@
         <module>net</module>
         <module>language</module>
         <module>spark</module>
+        <module>zookeeper</module>
     </modules>
 
 
