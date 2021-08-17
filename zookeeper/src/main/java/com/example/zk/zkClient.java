@@ -15,14 +15,13 @@ import java.util.List;
  */
 
 public class zkClient {
-    private static String connectString = "localhost:2181,localhost:2182,localhost:2183";
+    private static String connectString = "localhost:2181,localhost:2182,localhost:2183";//docker中起zk
     private static int sessionTimeout = 2000;
     private ZooKeeper zkClient = null;
 
     @Before
     public void init() throws Exception {
         zkClient = new ZooKeeper(connectString, sessionTimeout, new Watcher() {
-            @Override
             public void process(WatchedEvent watchedEvent) {
                 // 收到事件通知后的回调函数(用户的业务逻辑)
                 System.out.println(watchedEvent.getType() + "--" + watchedEvent.getPath());
